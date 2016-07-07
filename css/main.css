@@ -1,0 +1,212 @@
+header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 0px;
+}
+
+.logo_block {
+  display: inline-block;
+}
+
+.menu_drop {
+  float: right;
+  width: 50px;
+  display: inline-block;
+}
+
+.menu_drop .ham_menu {
+  color: #E20281;
+  font-size: 30px;
+}
+
+.DDClogo {
+  width: 150px;
+  display: inline-block;
+}
+
+.header_text {
+  font-weight: bold;
+}
+
+.nav {
+  background-color: black;
+}
+
+.nav-links {
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding-top: 15px;
+  padding-right: 5px;
+  padding-left: 5px;
+  height: 50px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.nav-links li:hover {
+  background-color: #E20281;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.nav-logos {
+  height: 50px;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-left: 0px;
+}
+
+.nav-logos .twitter {
+  width: 20px;
+}
+
+.nav-logos .facebook {
+  width: 10px;
+  margin-right: 10px;
+}
+
+.jumbotron {
+  text-shadow: 1px 1px 1px black;
+}
+
+.jumbotron h1 {
+  font-size: 24px;
+  color: white;
+}
+
+.jumbotron h3 {
+  color: white;
+}
+
+.jumbotron h2 {
+  color: #E20281;
+  font-size: 16px;
+}
+
+.jumbotron h6 {
+  color: rgba(209, 193, 195, 0.75);
+}
+
+.pink_pad {
+  padding-left: 10px;
+}
+
+.cover_image {
+  background-image: url("../images/background.jpg");
+  background-repeat: round;
+}
+
+.button_row {
+  padding-top: 30px;
+}
+
+.button {
+  width: 175px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: solid;
+  border-radius: 10px;
+}
+
+.whyBtn {
+  background-color: transparent;
+  color: #D1C1C3;
+  border-color: #969696;
+}
+
+.regBtn {
+  background-color: #C4D85F;
+  border-color: #C4D85F;
+}
+
+.button_block_m {
+  display: flex;
+}
+
+.button_m {
+  flex: 1;
+  width: 100px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: solid;
+  border-radius: 6px;
+  font-size: 10px;
+}
+
+.whyBtn_m {
+  background-color: transparent;
+  color: black;
+  border-color: #969696;
+  margin-right: 5px;
+}
+
+.regBtn_m {
+  background-color: #C4D85F;
+  border-color: #C4D85F;
+  margin-left: 5px;
+}
+
+.bottom_box {
+  border-bottom: 5px solid #18A8E0;
+  padding-bottom: 30px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.bottom_box h1 {
+  font-size: 28px;
+}
+
+.bottom_box h3 {
+  color: #969696;
+  font-size: 12px;
+}
+
+.bottom_box h4 {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: normal;
+}
+
+@media screen and (min-width: 700px) {
+  .bottom_box {
+    text-align: center;
+  }
+  .bottom_box h1 {
+    font-size: 36px;
+  }
+  .bottom_box h4 {
+    font-size: 18px;
+    padding: 15px 75px 0 75px;
+    line-height: 25px;
+    font-weight: normal;
+  }
+  .bottom_box h3 {
+    color: #969696;
+    font-size: 20px;
+  }
+  .jumbotron {
+    text-shadow: 1px 1px 1px black;
+  }
+  .jumbotron h1 {
+    font-size: 36px;
+    color: white;
+  }
+  .jumbotron h3 {
+    color: white;
+  }
+  .jumbotron h2 {
+    color: #E20281;
+    font-size: 24px;
+  }
+  .jumbotron h6 {
+    color: rgba(209, 193, 195, 0.75);
+  }
+}
